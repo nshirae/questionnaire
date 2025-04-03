@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'KikaiChokoku';
+	src: url(font/KikaiChokokuJIS-Md.otf);
+}
+
+body {
+  font-family: KikaiChokoku;
+  background-image: url("../img/bkg.jpg?2020090201");
+}
+
+header{
+  margin-top: 30px;
+  color: #bd7a7a;
+}
+hr{
+  border-width: 3px;
+  border-color: #bd7a7a;
+}
+h1{
+  font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+  text-align: center;
+}
+
+.align-light{
+    text-align: right;
+}
+.form-group{
+  margin-bottom: 35px;
+}
+footer p{
+  text-align: center;
+}
+input:required{
+  /*background: #ffcdd2;*/
+  background: #fff;
+}
+input[type="email"]:invalid{
+  background: #ffcdd2;
+}
+input:valid{
+  /*background: transparent;*/
+  background: #fff;
+}
+input:focus{
+  /*background: #DCEDC8;*/
+  background: #fff;
+}
+
+
+.grid{
+  display:grid;
+}
+
+input[type="text"] {
+  max-width: 300px;
+  display: inline-grid;
+}
+
+textarea {
+  width: 300px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button[type="submit"]{
+  padding-bottom: 10px;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #861b00;
+  border-color: #772323;
+}
+
+.pad-lr-10 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.form-group label {
+  font-size: 16px;
+}
+
+label.radio-label {
+  font-size: 11px;
+}
+
+input[type="radio"]{
+  position: relative;
+  top: 2px;
+}
+
+h1{
+  color: #861b00;
+}
+
+.btn-group {
+  margin: 0 20px;
+}
+
